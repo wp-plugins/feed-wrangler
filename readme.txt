@@ -23,7 +23,7 @@ Some possible use cases for the plugin:
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload the `feed-wrangler` directory to your blog's `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to "Settings" > "Feed Wrangler" to create a new feed.
 
@@ -37,3 +37,12 @@ Some possible use cases for the plugin:
 
 The feed will take precedence.
 
+= I want to make a feed only slightly different from an RSS2 feed, where do I start? =
+
+Once you create a new feed in the Feed Wrangler interface, you can create a corresponding template file in your current theme to customize your newly created feed.  The admin interface will tell you the file name to use.
+
+If you want to start off with one of the default templates -- let's say RSS2 -- just copy and paste the code from `/wp-includes/wp-rss2.php` into the new theme file and make the changes and additions you see fit.
+
+= What's a good way to test feed template changes? =
+
+On a Mac, I like using Firefox with the "Feeds" option set to "Show me a preview and ask me which Feed Reader to use".  When you access your feed in Firefox, you have to clear the cache as you reload (COMMAND + SHIFT + R) -- otherwise you might have trouble seeing your changes.  Viewing the source of that preview page will give you the raw feed source.  Once the source looks fine, it's a good idea to drop the feed in an actual feed reader and see how it responds.  Also, don't forget about [Feed Validator](http://feedvalidator.org// "Feed Validator for Atom and RSS").
