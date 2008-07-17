@@ -3,8 +3,8 @@ Contributors: ephramzerb
 Donate link: http://ephramzerb.com/
 Tags: rss, feeds, feed, redirect, atom, feedburner
 Requires at least: 2.5
-Tested up to: 2.5.1
-Stable tag: 0.1
+Tested up to: 2.6
+Stable tag: 0.2
 
 FeedWrangler is a utility for creating and editing custom feeds.
 
@@ -46,3 +46,8 @@ If you want to start off with one of the default templates -- let's say RSS2 -- 
 = What's a good way to test feed template changes? =
 
 On a Mac, I like using Firefox with the "Feeds" option set to "Show me a preview and ask me which Feed Reader to use".  When you access your feed in Firefox, you have to clear the cache as you reload (COMMAND + SHIFT + R) -- otherwise you might have trouble seeing your changes.  Viewing the source of that preview page will give you the raw feed source.  Once the source looks fine, it's a good idea to drop the feed in an actual feed reader and see how it responds.  Also, don't forget about [Feed Validator](http://feedvalidator.org// "Feed Validator for Atom and RSS").
+
+= Upgrading to Wordpress 2.6 deletes all my feeds  = 
+
+If you're using version .1 of Feed Wrangler, you'll need to upgrade Feed Wrangler BEFORE upgrading your Wordpress to 2.6.
+

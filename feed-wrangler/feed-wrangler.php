@@ -5,7 +5,7 @@ Plugin URI: http://www.ephramzerb.com/projects/feed-wrangler
 Description: A feed utility for creating custom feeds.  Useful if you need a clean feed that doesn't go through FeedBurner for example. 
 Author: Ivan Kanevski
 Author URI: http://www.ephramzerb.com
-Version: 0.1
+Version: 0.2
 */
 
 
@@ -14,7 +14,7 @@ class FeedWrangler {
 	var $original_is_feed;
 	
 	function FeedWrangler() {
-		$this->feeds = unserialize(get_option('feed_wrangler_feeds'));
+		$this->feeds = maybe_unserialize(get_option('feed_wrangler_feeds'));
 		add_action('template_redirect', array(&$this, 'short_circuit_feedburner_before'), 1);
 		add_action('template_redirect', array(&$this, 'short_circuit_feedburner_after'), 100);
 		add_action('init', array(&$this, 'add_all_feeds'));
