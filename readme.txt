@@ -41,7 +41,7 @@ The feed will take precedence.
 
 Once you create a new feed in the Feed Wrangler interface, you can create a corresponding template file in your current theme to customize your newly created feed.  The admin interface will tell you the file name to use.
 
-If you want to start off with one of the default templates -- let's say RSS2 -- just copy and paste the code from `/wp-includes/wp-rss2.php` into the new theme file and make the changes and additions you see fit.
+If you want to start off with one of the default templates -- let's say RSS2 -- just copy and paste the code from `/wp-includes/feed-rss2.php` (`/wp-includes/wp-rss2.php` in older versions of Wordpress) into the new theme file and make the changes and additions you see fit.
 
 = What's a good way to test feed template changes? =
 
