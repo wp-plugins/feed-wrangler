@@ -3,8 +3,8 @@ Contributors: ephramzerb
 Donate link: http://ephramzerb.com/
 Tags: rss, feeds, feed, redirect, atom, feedburner
 Requires at least: 2.5
-Tested up to: 2.7
-Stable tag: 0.3
+Tested up to: 2.8
+Stable tag: 0.3.1
 
 FeedWrangler is a utility for creating and editing custom feeds.
 
@@ -26,6 +26,8 @@ Some possible use cases for the plugin:
 1. Upload the `feed-wrangler` directory to your blog's `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to "Settings" > "Feed Wrangler" to create a new feed.
+
+You can also install through your Wordpress admin by going to "Plugins" > "Add New" and searching for "Feed Wrangler"
 
 == Screenshots ==
 

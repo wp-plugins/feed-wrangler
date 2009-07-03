@@ -5,7 +5,7 @@ Plugin URI: http://www.ephramzerb.com/projects/feed-wrangler
 Description: A feed utility for creating custom feeds.  Useful if you need a clean feed that doesn't go through FeedBurner for example. 
 Author: Ivan Kanevski
 Author URI: http://www.ephramzerb.com
-Version: 0.3
+Version: 0.3.1
 */
 
 
