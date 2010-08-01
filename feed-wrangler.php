@@ -5,7 +5,7 @@ Plugin URI: http://www.ephramzerb.com/projects/feed-wrangler
 Description: A feed utility for creating custom feeds.  Useful if you need a clean feed that doesn't go through FeedBurner for example. 
 Author: Ivan Kanevski
 Author URI: http://www.ephramzerb.com
-Version: 0.3.1
+Version: 0.3.2
 */
 
 
@@ -179,16 +179,16 @@ wp_nonce_field('feed-wrangler-update-options-add-feed');
 echo <<<OPTIONS_PAGE
 <table class="form-table">
 <tr valign="top">
-	<th scope="row">Feed Slug:</th>
+	<th scope="row"><label for="feed_slug">Feed Slug</label></th>
 	<td>
-	<input name="feed_slug" type="text" id="feed_slug" size="20" /> The name by which feed will be accessible, for example: /feed/your-feed-slug
+	<input name="feed_slug" type="text" id="feed_slug" class="regular-text code" size="20" /> <span class="description">The name by which feed will be accessible, for example: /feed/your-feed-slug</span>
 	</td>
 </tr>
 
 <tr valign="top">
-	<th scope="row">Notes:</th>
+	<th scope="row"><label for="feed_notes">Notes</label></th>
 	<td>
-	<input name="feed_notes" type="text" id="feed_notes" size="20" /> Some quick notes to remember the feed by
+	<input name="feed_notes" type="text" id="feed_notes" class="regular-text" size="20" /> <span class="description">Some quick notes to remember the feed by</span>
 	</td>
 </tr>
 
