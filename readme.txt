@@ -3,8 +3,8 @@ Contributors: ephramzerb
 Donate link: http://ephramzerb.com/
 Tags: rss, feeds, feed, redirect, atom, feedburner
 Requires at least: 2.5
-Tested up to: 2.8
-Stable tag: 0.3.1
+Tested up to: 3.0.1
+Stable tag: 0.3.2
 
 FeedWrangler is a utility for creating and editing custom feeds.
 
